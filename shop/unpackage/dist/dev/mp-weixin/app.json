@@ -3,13 +3,18 @@
     "pages/index/index",
     "pages/category/category",
     "pages/cart/cart",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/login/login",
+    "pages/news/news",
+    "pages/set/set"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "商城",
-    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarBackgroundColor": "#FF0000",
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
@@ -43,5 +48,5 @@
     "selectedColor": "#FF0000"
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap85.json"
+  "sitemapLocation": "sitemap13.json"
 }

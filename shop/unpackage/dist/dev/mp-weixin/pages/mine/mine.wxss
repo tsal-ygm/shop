@@ -1,0 +1,121 @@
+
+.box_header {
+	width: 100%;
+	height: 300rpx;
+	border-radius:0 0  150rpx 150rpx;
+	background-color: #FF0000;
+	position: relative;
+	top: 0;
+}
+.userifo {
+	width: 90%;
+	position: absolute;
+	left: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.userifo image {
+	width: 130rpx;
+	height: 130rpx;
+	border-radius: 50%;
+}
+.username text{
+	display: block;
+	margin-right: 300rpx;
+	color: #fff;
+}
+.username text:last-child {
+	font-size: 24rpx;
+	margin-top: 20rpx;
+}
+.shezhi {
+	font-size: 40rpx;
+	color: #fff;
+}
+.indent_box {
+	width: 90%;
+	height: 200rpx;
+	background-color: #fff;
+	border-radius: 50rpx;
+	position: absolute;
+	top: 150rpx;
+	left: 50%;
+	-webkit-transform: translate(-50%,0);
+	        transform: translate(-50%,0);
+	box-shadow: 0 0 5rpx 5rpx #ccc;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 10rpx 15rpx;
+}
+.option_box {
+	position: relative;
+}
+.option_box text {
+	display: block;
+}
+.option_box text:nth-child(2){
+	font-size: 28rpx;
+	color: #333;
+	padding-top: 20rpx;
+}
+.iconfse {
+	font-size: 50rpx;
+	text-align: center;
+	color: #FA436A;
+}
+.mesgalert {
+	position: absolute;
+	width: 30rpx;
+	height: 30rpx;
+	top: -16rpx;
+	left: 52rpx;
+	background-color: #FF0000;
+	text-align: center;
+	line-height: 30rpx;
+	border-radius: 50%;
+	font-size: 24rpx;
+	color: #fff;
+}
+.card_box {
+	width: 100%;
+	padding: 100rpx 20rpx 10rpx;
+	box-sizing: border-box;
+}
+.collect {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 90rpx;
+	border-bottom: 1rpx solid #ccc;
+	margin-bottom: 20rpx;
+}
+.collect_ico {
+	font-size: 45rpx;
+	color: #FF3300;
+}
+.collect_title {
+	color: #999;
+	font-size: 30rpx;
+	margin-left: 20rpx;
+}
+

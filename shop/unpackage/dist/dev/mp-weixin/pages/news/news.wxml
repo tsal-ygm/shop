@@ -1,0 +1,1 @@
+<view class="aui-news-box"><block wx:for="{{lists}}" wx:for-item="list" wx:for-index="i" wx:key="i"><view class="aui-news-item"><view class="aui-news-item-hd"><image class="img" src="{{list.img}}"></image></view><view class="aui-news-item-bd"><view class="_h4">{{list.tit1}}</view><view class="_p">{{list.tit2}}</view></view></view></block></view>

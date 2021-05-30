@@ -3,19 +3,70 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "商城"
+				"navigationBarTitleText": "商城",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FF0000",
+						"titleColor": "#fff",
+						"searchInput": {
+							"align": "left",
+							"backgroundColo": "rgba(255,255,255,0.9)",
+							"placeholder": "aaa",
+							"placeholderColor": "#ccc",
+							"borderRadius": "5px"
+						}
+
+					}
+				}
 			}
 		},
 		{
 			"path": "pages/category/category",
 			"style": {
-				"navigationBarTitleText": "列表"
+				"navigationBarTitleText": "商品列表",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FF0000",
+						"buttons": [{
+								"type": "back",
+								"float": "left"
+							},
+							{
+								"type": "none",
+								"float": "right"
+							}
+						],
+						"titleColor": "#fff",
+						"searchInput": {
+							"align": "left",
+							"backgroundColo": "rgba(255,255,255,0.9)",
+							"placeholder": "aaa",
+							"placeholderColor": "#ccc",
+							"borderRadius": "5px"
+						}
+
+					}
+				}
 			}
 		},
 		{
 			"path": "pages/cart/cart",
 			"style": {
-				"navigationBarTitleText": "购物车"
+				"navigationBarTitleText": "购物车",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"type":"back",
+								"float":"left"
+							},
+							{
+								"type":"menu",
+								"float":"right"
+							}
+						]
+					}
+				}
 			}
 		},
 		{
@@ -23,16 +74,54 @@
 			"style": {
 				"navigationBarTitleText": "我的"
 			}
-		}
-	],
+		},
+		{
+			"path":"pages/list/list",
+			"style": {
+				"navigationBarTitleText":"商品列表",
+				"app-plus": {
+					"titleNView":{
+						"autoBackButton":true
+					}
+				}
+			}
+		},
+		{
+			"path":"pages/detail/detail",
+			"style": {
+				// #ifndef MP-WEIXIN
+				 "navigationStyle":"custom",
+				// #endif
+				"navigationBarTitleText":"详情展示"
+
+			}
+		},
+		{
+			"path":"pages/login/login",
+			"style":{
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path":"pages/news/news"
+		},
+	    {
+            "path" : "pages/set/set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "商城",
-		"navigationBarBackgroundColor": "#FFFFFF",
-		"backgroundColor": "#F8F8F8",
-		"h5":{
-			"titleNView":false
-		}
+		"navigationBarBackgroundColor": "#FF0000",
+		"backgroundColor": "#F8F8F8"
+
 
 	},
 	"tabBar": {
@@ -61,7 +150,7 @@
 				"text": "我的"
 			}
 		],
-		"color":"#333",
-		"selectedColor":"#FF0000"
+		"color": "#333",
+		"selectedColor": "#FF0000"
 	}
 }

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "详情展示",
+  "usingComponents": {
+    "uni-shade": "/components/uni-shade/uni-shade"
+  }
+}

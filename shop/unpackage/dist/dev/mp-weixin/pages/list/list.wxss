@@ -1,0 +1,127 @@
+
+.actice {
+	border-bottom: 1rpx solid #FF0000;
+	color: #FF0000;
+}
+.xuanxian {
+	width: 100%;
+	height: 100rpx;
+	background-color: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	box-shadow: 0 3rpx 3rpx #ccc;
+	position: fixed;
+
+
+
+	z-index: 10;
+}
+.sort {
+
+	height: 100%;
+	line-height: 100rpx;
+}
+.price_sort {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.price_icon {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.iconfont {
+	line-height: 20rpx;
+}
+.as {
+	padding-top: 100rpx;
+}
+.shop_ifobox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 30rpx 0;
+	padding: 0 20rpx;
+}
+.shop_ifobox image {
+	width: 240rpx;
+	height: 240rpx;
+}
+.ifo_right {
+	width: 470rpx;
+	height: 100%;
+	padding: 0 0 20rpx 15rpx;
+	box-sizing: border-box;
+	border-bottom: 1rpx solid rgba(0, 0, 0, 0.1);
+}
+.shop_name {
+	width: 100%;
+	line-height: 40rpx;
+	font-size: 28rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.shop_price {
+	margin-top: 10rpx;
+}
+.new_money {
+	font-weight: 700;
+	font-size: 32rpx;
+	color: #F0AD4E;
+	margin-right: 30rpx;
+}
+.old_money {
+	font-weight: 700;
+	text-decoration: line-through;
+	color: #808080;
+}
+.youhui {
+	border: 1rpx solid #FF0000;
+	text-align: center;
+	padding: 6rpx;
+	display: inline-block;
+	color: #FF0000;
+	font-size: 24rpx;
+	margin-top: 10rpx;
+}
+.shop_end {
+	margin-top: 10rpx;
+}
+.paynum {
+	font-size: 24rpx;
+	color: #999999;
+}
+.storename {
+	font-size: 24rpx;
+	margin-right: 30rpx;
+}
+

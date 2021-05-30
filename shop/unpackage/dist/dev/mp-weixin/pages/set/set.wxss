@@ -1,0 +1,55 @@
+
+.box {
+		width: 100%;
+		background-color: #ccc;
+}
+.users_box {	
+		display: -webkit-box;	
+		display: -webkit-flex;	
+		display: flex;
+		-webkit-box-pack: start;
+		-webkit-justify-content: flex-start;
+		        justify-content: flex-start;
+		border-bottom: 1rpx solid #ccc;
+		background-color: #fff;
+		padding: 20rpx;
+}
+.users_box image{
+		width: 130rpx;
+		height: 130rpx;
+		border-radius: 50%;
+}
+.users_box text {
+		display: inline-block;
+		line-height: 130rpx;
+		margin-left: 20rpx;
+}
+.tab_box {
+		margin: 10rpx 0;
+		padding: 0 20rpx;
+		background-color: #fff;
+}
+.content_box {
+		padding: 20rpx 0;
+		border-bottom: 1rpx solid #ccc;
+}
+.clearfix::after {
+	    clear: both;
+	    content: ".";
+	    display: block;
+	    height: 0;
+	    visibility: hidden;
+}
+.fl {
+		float: left;
+}
+.fr {
+		float: right;
+}
+.logout {
+		background-color: #FF0000;
+		text-align: center;
+		color: #fff;
+		line-height: 60rpx;
+}
+
